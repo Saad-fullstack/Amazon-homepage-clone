@@ -35,13 +35,14 @@
 }
 
 
-.border {
+.border, .panel-opt a {
     border: 1px solid transparent;
     cursor: pointer;
     padding: 5px;
 }
 
-.border:hover {
+.border:hover, 
+.panel-opt a:hover{
     border: 1px solid white;
 }
 
@@ -150,4 +151,44 @@ span {
 
 .nav-cart p {
     align-self: end;
+}
+
+/* ****************** Panel ****************** */
+.panel {
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 0.87rem;
+    cursor: pointer;
+    padding: 8px 5px;
+}
+.panel-opt {
+    width: 90%;   
+}
+
+.panel-icon {
+    font-size: 0.87rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.panel-icon i {
+    font-size: 20px;
+}
+
+/* ************** Hreo Section **************** */
+.hero-section {
+    background-image: url(/images/Hero_img.jpg);
+    background-size: cover;
+    height: 400px;
 }
