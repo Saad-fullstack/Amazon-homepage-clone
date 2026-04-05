@@ -192,3 +192,49 @@ span {
     background-size: cover;
     height: 400px;
 }
+
+
+/* *************** Shop Section ***************** */
+.shop-section {
+    background-color: #e2e7e6;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+
+.box {
+    width: 23%;
+    height: 350px;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-bottom: 20px;
+}
+
+
+.box-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box-content img {
+    width: 125px;
+    height: 120px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.box h2 {
+    padding-left: 13px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 0.85rem;
+    color: #2162a1;
+    padding-left: 13px;
+}
