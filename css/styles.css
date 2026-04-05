@@ -10,7 +10,7 @@
 .navbar {
     height: 60px;
     background-color: #0f1111;
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -237,4 +237,106 @@ span {
     font-size: 0.85rem;
     color: #2162a1;
     padding-left: 13px;
+    cursor: pointer;
+}
+
+/* ********************** Footer ********************** */
+.foot-panel1 {
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel1:hover {
+    background-color: #435365;
+}
+
+.foot-panel1 a {
+    text-decoration:  none;
+    color: white;
+    cursor: pointer;
+    font-size: 0.87rem;
+}
+
+.foot-panel2 {
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+
+.foot-panel2 ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-panel2 p {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 6px 0 14px;
+}
+
+.foot-panel2 a {
+    text-decoration: none;
+    color: #ddd;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+
+.foot-panel2 a:hover {
+    border-bottom: 1px solid white;
+}
+
+.foot-panel3 {
+    background-color: #232f3e;
+    height: 70px;
+    border-top: 1px solid #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(/images/amazon_logo.png);
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #131a22;
+    text-align: center;
+    height: 80px;
+    padding: 10px 0 30px;
+}
+
+.conditions a {
+    text-decoration: none;
+    color: white;
+    margin: 0 7px;
+    font-size: 0.75rem;
+    border-bottom: 0.5px solid transparent;
+}
+
+.conditions a:hover {
+    border-bottom-color: white;
+}
+
+.conditions i {
+    color: white;
+    position: relative;
+    top: 1.5px;
+    right: 3px;
+    font-size: 1.2rem;
+}
+
+.copyright {
+    color: white;
+    margin: 0 7px;
+    font-size: 0.75rem;
+    margin-top: 7px;
 }
